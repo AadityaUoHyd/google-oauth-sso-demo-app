@@ -3,7 +3,7 @@
 - Google APIs use the OAuth 2.0 protocol for authentication and authorization. 
 Google supports common OAuth 2.0 scenarios such as those for web server, client-side, installed, and limited-input device applications.
 
-- Here we are using for web applications. To begin, obtain OAuth 2.0 client credentials from the Google API Console, 
+- Here we are using for web applications. To begin, obtain two OAuth-2.0 client credentials (ClientID & ClientSecret) from the Google API Console, 
 and use them in application.yml file of spring-boot code. Then your client application requests an access token from the Google Authorization Server, 
 extracts a token from the response, and sends the token to the Google API that you want to access. 
 
