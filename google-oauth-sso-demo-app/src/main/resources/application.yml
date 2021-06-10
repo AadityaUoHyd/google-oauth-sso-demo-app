@@ -1,0 +1,11 @@
+server:
+  port: 9090
+  
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: xxxxxxxxxxxx Fill Your Own Google-Cloud-Console ClientID xxxxxxxxxxxxxx
+            client-secret: xxxxxx Fill Your Own Google-Cloud-Console ClientSecret xxxxxx
